@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Adam Patridge",
+    "classifications": [ "Console" ],
+    "identity": "PatridgeDev.TemplateBlogging.Console.CSharp",
+    "name": "Our slightly modified console app",
+    "shortName": "console-awesome"
+}
+
