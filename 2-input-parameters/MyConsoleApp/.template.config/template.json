@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Adam Patridge",
+    "classifications": [ "Console" ],
+    "identity": "PatridgeDev.TemplateBlogging.Console2.CSharp",
+    "name": "Our modified console app with an input parameter and generated symbol",
+    "shortName": "console-awesome-2",
+    "symbols": {
+        "helloMessage": {
+            "description": "",
+            "type": "parameter",
+            "replaces": "{helloMessage}",
+            "defaultValue": "Hello from a new template!"
+        },
+        "helloMessageUpper": {
+            "type": "generated",
+            "generator": "casing",
+            "parameters": {
+              "source": "helloMessage",
+              "toLower": false
+            },
+            "replaces": "{helloMessageUpper}"
+        }
+    }
+}
